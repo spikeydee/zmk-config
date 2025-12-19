@@ -1,17 +1,26 @@
-// This file was generated from a template. Edit it to match your keyboard.
-// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
-// instructions.
-
 #include "splitsies.dtsi"
+
+/* QMK Pinout
+
+#define DIRECT_PINS { \
+    { D1, F5, D4, B1, E6 }, \
+    { F4, D0, F7, D7, B2 }, \
+    { D3, F6, C6, B3, B4 }, \
+    { B6, B5, NO_PIN, NO_PIN, NO_PIN } \
+    }
+    
+*/
 
 &default_transform {
     // Set this to the number of columns on the left side.
     col-offset = <17>;
 };
 
-&kscan {
-    // Replace these comments with the GPIO pins in the matrix for the right side.
-    // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
+/ {
+kscan0: kscan {
+    compatible = "zmk,kscan-gpio-direct";
+    wakeup-source;
+    
     input-gpios
         = <&pro_micro 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         , <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
@@ -34,4 +43,5 @@
         , <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         , <&pro_micro 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
         ;
+    };    
 };

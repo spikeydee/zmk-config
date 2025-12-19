@@ -1,4 +1,4 @@
-#include "ferris.dtsi"
+#include "splitsies.dtsi"
 
 /{
     chosen {
