@@ -1,0 +1,5 @@
+config SHIELD_SPLITSIES_LEFT
+    def_bool $(shields_list_contains,SPLITSIES_left)
+
+config SHIELD_SPLITSIES_RIGHT
+    def_bool $(shields_list_contains,SPLITSIES_right)

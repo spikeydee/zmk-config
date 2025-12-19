@@ -1,0 +1,23 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+# for instructions.
+
+file_format: "1"
+id: splitsies
+name: splitsies
+type: shield
+
+# Set this to a URL that documents the keyboard.
+url: https://github.com/spikeydee/splitsies
+
+# Add any features your keyboard supports here.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+features:
+  - keys
+
+requires:
+  - pro_micro
+
+siblings:
+  - splitsies_left
+  - splitsies_right
