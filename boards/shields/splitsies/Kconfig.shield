@@ -1,8 +1,8 @@
 config SHIELD_SPLITSIES_CENTRAL
-    def_bool $(shields_list_containts,SPLITSIES_central)
+    def_bool $(shields_list_contains,splitsies_central)
 
 config SHIELD_SPLITSIES_LEFT
-    def_bool $(shields_list_contains,SPLITSIES_left)
+    def_bool $(shields_list_contains,splitsies_left)
 
 config SHIELD_SPLITSIES_RIGHT
-    def_bool $(shields_list_contains,SPLITSIES_right)
+    def_bool $(shields_list_contains,splitsies_right)
