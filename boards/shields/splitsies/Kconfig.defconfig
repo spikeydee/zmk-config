@@ -6,11 +6,17 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_USB
+    default y
+
 endif
 
 if SHIELD_SPLITSIES_CENTRAL || SHIELD_SPLITSIES_LEFT || SHIELD_SPLITSIES_RIGHT
 
-config ZMK_SPLIT_BLE
+config ZMK_SPLIT
+    default y
+    
+config ZMK_BLE
     default y
 
 endif # SHIELD_SPLITSIES_CENTRAL || SHIELD_SPLITSIES_LEFT || SHIELD_SPLITSIES_RIGHT
