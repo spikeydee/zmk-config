@@ -3,10 +3,10 @@ id: splitsies
 name: splitsies
 type: shield
 url: https://github.com/spikeydee/splitsies
-features:
-  - keys
 requires:
   - pro_micro
+features:
+  - keys
 siblings:
   - splitsies_central
   - splitsies_left
