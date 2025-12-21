@@ -1,5 +1,5 @@
-config SHIELD_SPLITSIES_CENTRAL
-    def_bool $(shields_list_contains,splitsies_central)
+config SHIELD_SPLITSIES_DONGLE
+    def_bool $(shields_list_contains,splitsies_dongle)
 
 config SHIELD_SPLITSIES_LEFT
     def_bool $(shields_list_contains,splitsies_left)
