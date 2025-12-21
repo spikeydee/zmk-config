@@ -11,7 +11,7 @@
         rows = <0>;
         events = <0>;
     };
-};
+    
         default_transform: default_transform {
         compatible = "zmk,matrix-transform";
         columns = <34>;
@@ -23,3 +23,4 @@
 	                           RC(0,15) RC(0,16)   RC(0,33) RC(0,25)
         >;
     };
+};
