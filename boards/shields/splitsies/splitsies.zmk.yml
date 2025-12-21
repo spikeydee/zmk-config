@@ -8,6 +8,6 @@ requires:
 features:
   - keys
 siblings:
-  - splitsies_central
+  - splitsies_dongle
   - splitsies_left
   - splitsies_right

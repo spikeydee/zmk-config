@@ -1,4 +1,7 @@
 if SHIELD_SPLITSIES_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "splitsies dongle"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -11,6 +14,9 @@ endif
 if SHIELD_SPLITSIES_DONGLE || SHIELD_SPLITSIES_LEFT || SHIELD_SPLITSIES_RIGHT
 
 config ZMK_SPLIT
+    default y
+    
+config ZMK_BLE
     default y
 
 endif
