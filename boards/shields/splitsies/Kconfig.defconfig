@@ -17,6 +17,9 @@ config BT_MAX_CONN
     
 config BT_MAX_PAIRED
     default 3
+    
+config ZMK_USB
+    default y
 
 endif
 
