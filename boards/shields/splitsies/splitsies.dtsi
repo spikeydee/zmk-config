@@ -1,14 +1,11 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "splitsies-layouts.dtsi"
 
-/* QMK Pinout
+/* QMK Pinout  |  ZMK Pinout
 
-#define DIRECT_PINS { \
-    { D1, F5, D4, B1, E6 }, \
-    { F4, D0, F7, D7, B2 }, \
-    { D3, F6, C6, B3, B4 }, \
-    { B6, B5, NO_PIN, NO_PIN, NO_PIN } \
-    }
+D1 F5 D4 B1 E6 | 02 20 04 15 07 
+F4 D0 F7 D7 B2 | 21 03 18 06 16
+D3 F6 C6 B3 B4 | 01 19 05 14 08
+         B6 B5 |	  10 09
     
 */
 
