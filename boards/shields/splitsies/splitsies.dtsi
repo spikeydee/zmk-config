@@ -12,7 +12,7 @@ D3 F6 C6 B3 B4 | 01 19 05 14 08
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &default_layout;
+        zmk,matrix-transform = &default_transform;
     };
 
     default_transform: default_transform {
