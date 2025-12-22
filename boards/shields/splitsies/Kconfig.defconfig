@@ -8,10 +8,13 @@ config ZMK_SPLIT_ROLE_CENTRAL
     
 config ZMK_USB
     default y
+    
+config ZMK_SPLIT
+    default y
    
 endif
 
-if SHIELD_SPLITSIES_DONGLE || SHIELD_SPLITSIES_LEFT || SHIELD_SPLITSIES_RIGHT
+if SHIELD_SPLITSIES_LEFT || SHIELD_SPLITSIES_RIGHT
 
 config ZMK_SPLIT
     default y
