@@ -56,7 +56,7 @@
           bindings = <
                 
           &kp Q       &kp D    &kp R        &kp W         &kp B   &kp J           &kp F         &kp U         &kp P       &kp SQT
-          &lm LGUI A  &lm LALT S  &lm LCTRL H  &lm LSHIFT T    &kp G   &kp Y           &rm RSHIFT N  &rm RCTRL E   &rm RALT O  &rm RGUI I
+          &lm LGUI A  &lm LALT S  &lm LCTRL H  &lm LSHIFT T    &kp G   &kp Y           &rm LSHIFT N  &rm LCTRL E   &rm LALT O  &rm LGUI I
           &kp Z       &kp X       &kp M        &kp C        &kp V   &kp K           &kp L         &kp COMMA     &kp DOT     &kp SLASH
                    &lt NAVR SPACE   &lt MOUR TAB   &lt NSSL ENTER  &lt NSL BKSP     
             
@@ -110,7 +110,7 @@
          bindings = <
          
           &kp LBRC    &kp AMPS     &kp ASTRK   &kp LPAR        &kp RBRC       &none           &none         &none         &bootloader  &sys_reset
-          &kp COLON   &kp DLLR     &kp PRCNT   &kp CARET       &kp PLUS       &none          &kp RSHIFT    &kp RCTRL     &kp RALT     &kp RGUI
+          &kp COLON   &kp DLLR     &kp PRCNT   &kp CARET       &kp PLUS       &none          &kp LSHIFT    &kp LCTRL     &kp LALT     &kp LGUI
           &kp TILDE   &kp EXCL     &kp AT      &kp HASH        &kp PIPE       &none           &none         &kp COMMA     &kp DOT      &kp SLASH
                      &kp RPAR        &kp UNDER       &none         &none  
          
@@ -120,7 +120,7 @@
          bindings = <
          
           &kp LBKT    &kp N7       &kp N8      &kp N9          &kp RBKT       &none           &none         &none         &bootloader  &sys_reset
-          &kp SEMI    &kp N4       &kp N5      &kp N6          &kp EQUAL       &none          &kp RSHIFT    &kp RCTRL     &kp RALT     &kp RGUI
+          &kp SEMI    &kp N4       &kp N5      &kp N6          &kp EQUAL       &none          &kp LSHIFT    &kp LCTRL     &kp LALT     &kp LGUI
           &kp GRAVE   &kp N1       &kp N2      &kp N3        &kp BSLH       &none           &none         &kp COMMA     &kp DOT      &kp SLASH
                      &kp N0          &kp MINUS       &none         &none  
          
@@ -130,7 +130,7 @@
          bindings = <
          
           &kp F12    &kp F7       &kp F8       &kp F9          &kp PSCRN       &none           &none         &none         &bootloader  &sys_reset
-          &kp F11    &kp F4       &kp F5       &kp F6          &kp SLCK        &none        &kp RSHIFT    &kp RCTRL     &kp RALT     &kp RGUI
+          &kp F11    &kp F4       &kp F5       &kp F6          &kp SLCK        &none        &kp LSHIFT    &kp LCTRL     &kp LALT     &kp LGUI
           &kp F10    &kp F1       &kp F2       &kp F3        &kp PAUSE_BREAK   &none           &none         &kp COMMA     &kp DOT      &kp SLASH
                      &kp SPACE       &kp TAB       &none         &none  
          
