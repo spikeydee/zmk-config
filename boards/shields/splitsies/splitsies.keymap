@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
 #define GAME 1
@@ -79,7 +80,7 @@
          
           &sys_reset  &bootloader  &none       &none         &none       &none           &none         &kp C_VOL_UP  &none       &none
           &kp LGUI    &kp LALT     &kp LCTRL   &kp LSHIFT      &none       &none           &kp C_PREV    &kp C_VOL_DN  &kp C_NEXT  &none
-          &none       &none        &none       &none        &none       &none           &none         &none      &none       &none
+          &out OUT_USB       &out OUT_BLE        &bt BT_SEL 0       &bt BT_SEL 1        &bt BT_SEL 2       &none           &none         &none      &none       &none
                      &none           &none       &kp C_STOP      &kp C_PLAY_PAUSE  
          
          >;
@@ -90,7 +91,7 @@
          
           &sys_reset  &bootloader  &none       &none         &none       &none           &kp PG_UP     &kp UARW      &kp PG_DN  &none
           &kp LGUI    &kp LALT     &kp LCTRL   &kp LSHIFT      &none       &kp CAPS        &kp LARW      &kp DARW      &kp RARW   &none
-          &none       &none        &none       &none        &none       &none           &kp HOME      &kp INS      &kp END    &none
+          &out OUT_USB       &out OUT_BLE        &bt BT_SEL 0       &bt BT_SEL 1        &bt BT_SEL 2       &none           &kp HOME      &kp INS      &kp END    &none
                      &none           &none       &kp ENTER       &kp BKSP  
                   
          >;
@@ -101,7 +102,7 @@
          
           &sys_reset  &bootloader  &none       &none         &none       &none           &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none
           &kp LGUI    &kp LALT     &kp LCTRL   &kp LSHIFT      &none       &none          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
-          &none       &none        &none       &none        &none       &none           &msc SCRL_LEFT  &none          &msc SCRL_RIGHT   &none
+          &out OUT_USB       &out OUT_BLE        &bt BT_SEL 0       &bt BT_SEL 1        &bt BT_SEL 2       &none           &msc SCRL_LEFT  &none          &msc SCRL_RIGHT   &none
                      &none           &none       &mkp MB1        &mkp MB2
          
          >;
