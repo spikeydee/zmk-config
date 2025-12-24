@@ -86,8 +86,7 @@
 	layers = <7>;
 	bindings = <&kp K_APP>;
 	};	
-      };
-  }; 
+      }; 
    
       keymap {
           compatible = "zmk,keymap";
