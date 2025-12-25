@@ -32,13 +32,13 @@
   behaviors {
     mmv {
     acceleration-exponent = <1>;      // 1
-    time-to-max-speed-ms = <300>;    // 40
+    time-to-max-speed-ms = <150>;    // 40
     delay-ms = <0>;                   // 0
     };
 
     msc {
     acceleration-exponent = <0>;      // 0
-    time-to-max-speed-ms = <40>;      // 500
+    time-to-max-speed-ms = <150>;      // 500
     delay-ms = <0>;                   // 10
     };
   };
@@ -48,13 +48,13 @@
     combo_medr {
 	timeout-ms = <165>;
 	key-positions = <16 15>;
-	bindings = <&lt MEDR ESC>;
+	bindings = <&lt 4 ESC>;
 	};
     
     combo_funl {
 	timeout-ms = <165>;
 	key-positions = <33 32>;
-	bindings = <&lt FUNL DEL>;
+	bindings = <&lt 7 DEL>;
 	};	
   }; 
    
@@ -67,7 +67,7 @@
           &kp Q       &kp D       &kp R        &kp W         &kp B   &kp J  &kp F         &kp U        &kp P       &kp SQT
           &mt LGUI A  &mt LALT S  &mt LCTRL H  &mt LSHIFT T  &kp G   &kp Y  &mt LSHIFT N  &mt LCTRL E  &mt LALT O  &mt LGUI I
           &kp Z       &kp X       &kp M        &kp C         &kp V   &kp K  &kp L         &kp COMMA    &kp DOT     &kp SLASH
-                                     &lt NAVR SPACE   &lt MOUR TAB   &lt NSSL ENTER  &lt NSL BKSP     
+                                     &lt 2 SPACE   &lt 3 TAB   &lt 6 ENTER  &lt 5 BKSP     
             
           >;
           };  
@@ -144,7 +144,7 @@
           &kp ESC     &kp Q  &kp W  &kp E  &kp R   &kp T  &kp Y  &kp U  &kp I  &kp O
           &kp LSHIFT  &kp A  &kp S  &kp D  &kp F   &kp G  &kp H  &kp J  &kp K  &kp L
           &kp LCTRL   &kp Z  &kp X  &kp C  &kp V   &kp B  &kp N  &kp M  &kp P  &kp SLASH
-                              &kp SPACE  &kp TAB   &lt NSSL ENTER  &lt NSL BKSP     
+                              &kp SPACE  &kp TAB   &lt 6 ENTER  &lt 5 BKSP     
             
           >;
           };                
