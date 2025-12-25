@@ -48,13 +48,13 @@
     combo_medr {
 	timeout-ms = <165>;
 	key-positions = <16 15>;
-	bindings = <&lt 4 ESC>;
+	bindings = <&kp ESC>;
 	};
     
     combo_funl {
 	timeout-ms = <165>;
 	key-positions = <33 32>;
-	bindings = <&lt 7 DEL>;
+	bindings = <&kp DEL>;
 	};	
   }; 
    
