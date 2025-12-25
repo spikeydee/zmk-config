@@ -67,77 +67,11 @@
           &kp Q       &kp D       &kp R        &kp W         &kp B   &kp J  &kp F         &kp U        &kp P       &kp SQT
           &mt LGUI A  &mt LALT S  &mt LCTRL H  &mt LSHIFT T  &kp G   &kp Y  &mt LSHIFT N  &mt LCTRL E  &mt LALT O  &mt LGUI I
           &kp Z       &kp X       &kp M        &kp C         &kp V   &kp K  &kp L         &kp COMMA    &kp DOT     &kp SLASH
-                                     &lt 2 SPACE   &lt 3 TAB   &lt 6 ENTER  &lt 5 BKSP     
+                                           &lt 2 SPACE   &lt 3 TAB   &lt 6 ENTER  &lt 5 BKSP     
             
           >;
           };  
-         
-         NAVR {
-         bindings = <
-         
-          &sys_reset    &bootloader   &none      &none       &none   &none     &kp PG_UP  &kp UARW  &kp PG_DN  &none
-          &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHIFT  &none   &kp CAPS  &kp LARW   &kp DARW  &kp RARW   &none
-          &out OUT_USB  &out OUT_BLE  &none      &none       &none   &none     &kp HOME   &kp INS   &kp END    &none
-                                                      &none  &none   &kp ENTER &kp BKSP  
-                  
-         >;
-         };
-         
-         MOUR {
-         bindings = <
-         
-          &sys_reset    &bootloader   &none      &none       &none   &none  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none
-          &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHIFT  &none   &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
-          &out OUT_USB  &out OUT_BLE  &none      &none       &none   &none  &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &none
-                                                      &none  &none   &mkp MB1  &mkp MB2
-         
-         >;
-         };
 
-         MEDR {
-         bindings = <
-         
-          &sys_reset    &bootloader   &none       &none       &none   &none  &none       &kp C_VOL_UP  &none       &none
-          &kp LGUI      &kp LALT      &kp LCTRL   &kp LSHIFT  &none   &none  &kp C_PREV  &kp C_VOL_DN  &kp C_NEXT  &none
-          &out OUT_USB  &out OUT_BLE  &none       &none       &none   &none  &none       &none         &none       &none
-                                                       &none  &none   &kp C_STOP  &kp C_PLAY_PAUSE  
-         
-         >;
-         };
-         
-         NSL  {
-         bindings = <
-         
-          &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT   &none   &none       &none      &bootloader  &sys_reset
-          &kp SEMI   &kp N4  &kp N5  &kp N6  &kp EQUAL  &none   &kp LSHIFT  &kp LCTRL  &kp LALT     &kp LGUI
-          &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH   &none   &none       &kp COMMA  &kp DOT      &kp SLASH
-                                            &kp N0  &kp MINUS   &none  &none  
-         
-         >;
-         };
-         
-         NSSL {
-         bindings = <
-         
-          &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC   &none      &none       &none      &bootloader  &sys_reset
-          &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS   &none      &kp LSHIFT  &kp LCTRL  &kp LALT     &kp LGUI
-          &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE   &tog GAME  &none       &kp COMMA  &kp DOT      &kp SLASH
-                                          &kp RPAR  &kp UNDER   &none  &none  
-         
-         >;
-         };         
-         
-         FUNL {
-         bindings = <
-         
-          &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &none   &none       &none      &bootloader  &sys_reset
-          &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK         &none   &kp LSHIFT  &kp LCTRL  &kp LALT     &kp LGUI
-          &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &none   &none       &kp COMMA  &kp DOT      &kp SLASH
-                                               &kp SPACE  &kp TAB   &none  &none  
-         
-         >;
-         };  
-         
           GAME {
           bindings = <
                 
@@ -147,6 +81,72 @@
                               &kp SPACE  &kp TAB   &lt 6 ENTER  &lt 5 BKSP     
             
           >;
-          };                
+          };          
+
+          NAVR {
+          bindings = <
+         
+          &sys_reset    &bootloader   &none      &none       &none   &none     &kp PG_UP  &kp UARW  &kp PG_DN  &none
+          &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHIFT  &none   &kp CAPS  &kp LARW   &kp DARW  &kp RARW   &none
+          &out OUT_USB  &out OUT_BLE  &none      &none       &none   &none     &kp HOME   &kp INS   &kp END    &none
+                                                      &none  &none   &kp ENTER &kp BKSP  
+                  
+          >;
+          };
+         
+          MOUR {
+          bindings = <
+         
+          &sys_reset    &bootloader   &none      &none       &none   &none  &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN   &none
+          &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHIFT  &none   &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+          &out OUT_USB  &out OUT_BLE  &none      &none       &none   &none  &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &none
+                                                      &none  &none   &mkp MB1  &mkp MB2
+         
+          >;
+          };
+
+          MEDR {
+          bindings = <
+         
+          &sys_reset    &bootloader   &none       &none       &none   &none  &none       &kp C_VOL_UP  &none       &none
+          &kp LGUI      &kp LALT      &kp LCTRL   &kp LSHIFT  &none   &none  &kp C_PREV  &kp C_VOL_DN  &kp C_NEXT  &none
+          &out OUT_USB  &out OUT_BLE  &none       &none       &none   &none  &none       &none         &none       &none
+                                                       &none  &none   &kp C_STOP  &kp C_PLAY_PAUSE  
+         
+          >;
+          };
+         
+          NSL  {
+          bindings = <
+         
+          &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT   &none   &none       &none      &bootloader  &sys_reset
+          &kp SEMI   &kp N4  &kp N5  &kp N6  &kp EQUAL  &none   &kp LSHIFT  &kp LCTRL  &kp LALT     &kp LGUI
+          &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH   &none   &none       &kp COMMA  &kp DOT      &kp SLASH
+                                            &kp N0  &kp MINUS   &none  &none  
+         
+          >;
+          };
+         
+          NSSL {
+          bindings = <
+         
+          &kp LBRC   &kp AMPS  &kp ASTRK  &kp LPAR   &kp RBRC   &none      &none       &none      &bootloader  &sys_reset
+          &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS   &none      &kp LSHIFT  &kp LCTRL  &kp LALT     &kp LGUI
+          &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE   &tog GAME  &none       &kp COMMA  &kp DOT      &kp SLASH
+                                          &kp RPAR  &kp UNDER   &none  &none  
+         
+          >;
+          };         
+         
+          FUNL {
+          bindings = <
+         
+          &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN        &none   &none       &none      &bootloader  &sys_reset
+          &kp F11  &kp F4  &kp F5  &kp F6  &kp SLCK         &none   &kp LSHIFT  &kp LCTRL  &kp LALT     &kp LGUI
+          &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &none   &none       &kp COMMA  &kp DOT      &kp SLASH
+                                               &kp SPACE  &kp TAB   &none  &none  
+         
+          >;
+          };      
       };
 };
