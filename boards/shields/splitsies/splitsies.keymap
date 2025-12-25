@@ -49,14 +49,12 @@
 	timeout-ms = <165>;
 	key-positions = <16 15>;
 	bindings = <&lt MEDR ESC>;
-	layers = <0>;
 	};
     
     combo_funl {
 	timeout-ms = <165>;
 	key-positions = <33 32>;
 	bindings = <&lt FUNL DEL>;
-	layers = <0>;
 	};	
   }; 
    
