@@ -46,14 +46,14 @@
     compatible = "zmk,combos";
     
     combo_medr {
-	timeout-ms = <50>;
+	timeout-ms = <165>;
 	key-positions = <15 16>;
 	bindings = <&lt MEDR ESC>;
 	layers = <0>;
 	};
     
     combo_funl {
-	timeout-ms = <50>;
+	timeout-ms = <165>;
 	key-positions = <33 32>;
 	bindings = <&lt FUNL DEL>;
 	layers = <0>;
