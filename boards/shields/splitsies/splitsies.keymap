@@ -18,12 +18,14 @@
 
 &mt {
     tapping-term-ms = <165>;
+    quick-tap-ms = <165>;
     require-prior-idle-ms = <125>;
     flavor = "tap-preferred";
 };
 
 &lt {
     tapping-term-ms = <165>;
+    quick-tap-ms = <165>;
     require-prior-idle-ms = <125>;
     flavor = "tap-preferred";
 };
