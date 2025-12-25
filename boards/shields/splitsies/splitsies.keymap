@@ -1,5 +1,5 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 2500  // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 2000  // 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15    // 10
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -47,7 +47,7 @@
     
     combo_medr {
 	timeout-ms = <165>;
-	key-positions = <15 16>;
+	key-positions = <16 15>;
 	bindings = <&lt MEDR ESC>;
 	layers = <0>;
 	};
