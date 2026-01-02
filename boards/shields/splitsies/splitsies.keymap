@@ -19,13 +19,13 @@
 &mt {
     tapping-term-ms = <165>;
     quick-tap-ms = <165>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
 };
 
 &lt {
     tapping-term-ms = <165>;
     quick-tap-ms = <165>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
 };
 
 / {
