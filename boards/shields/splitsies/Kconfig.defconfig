@@ -12,8 +12,5 @@ if SHIELD_SPLITSIES_DONGLE || SHIELD_SPLITSIES_LEFT || SHIELD_SPLITSIES_RIGHT
 
 config ZMK_SPLIT
     default y
-
-config ZMK_BLE
-    default y
    
 endif
